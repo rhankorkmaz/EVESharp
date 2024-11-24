@@ -1,0 +1,9 @@
+[submodule "Server/EVESharp.Database.MySql"]
+	path = Server/EVESharp.Database.MySql
+	url = ../../Almamu/EVESharp.Database.MySql.git
+	branch = main
+
+[submodule "Tools/evemon"]
+	path = Tools/evemon
+	url = ../../Almamu/evemon.git
+	branch = master

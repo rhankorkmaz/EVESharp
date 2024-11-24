@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>EVESharp</RootNamespace>
+	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+
+<ItemGroup>
+  <Compile Include="Logs\Loggers.cs" />
+  <Compile Include="Logs\Loggers.cs" /> <!-- Yinelenen öğe -->
+</ItemGroup>
+
+</Project>

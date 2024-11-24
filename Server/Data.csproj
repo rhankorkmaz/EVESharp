@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- AI Sistemi -->
+    <Compile Include="AI\AIManager.cs" />
+    <Compile Include="AI\DroneAI.cs" />
+    <Compile Include="AI\TradeAI.cs" />
+    <Compile Include="AI\DefenseAI.cs" />
+
+    <!-- Sistemler -->
+    <Compile Include="Systems\CombatSystem.cs" />
+    <Compile Include="Systems\ResourceManagement.cs" />
+    <Compile Include="Systems\Exploration.cs" />
+    <Compile Include="Systems\TradeRouteOptimizer.cs" />
+
+    <!-- Modeller -->
+    <Compile Include="Models\ShipModels\Battleship.cs" />
+    <Compile Include="Models\ShipModels\Drone.cs" />
+    <Compile Include="Models\ShipModels\Trader.cs" />
+    <Compile Include="Models\ShipModels\Frigate.cs" />
+    <Compile Include="Models\MaterialModels\Mineral.cs" />
+    <Compile Include="Models\MaterialModels\WeaponComponent.cs" />
+    <Compile Include="Models\MaterialModels\ShieldModule.cs" />
+
+    <!-- Veritabanı -->
+    <None Include="Seed\AISeedData.sql" />
+    <None Include="Seed\ItemSeedData.sql" />
+    <None Include="Seed\ShipSeedData.sql" />
+    <None Include="SQL\Tables.sql" />
+    <None Include="SQL\StoredProcedures.sql" />
+    <None Include="SQL\Indexes.sql" />
+  </ItemGroup>
+
+</Project>

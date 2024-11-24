@@ -1,0 +1,453 @@
+[33mcommit 99d75f6367cb6e9532fa2266ab87aa6b53d06cc1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: rhanKorkmaz <rhanKorkmaz@gmail.com>
+Date:   Fri Nov 22 08:50:53 2024 +0300
+
+    EVESharp klasörü ana depoya eklendi
+
+[33mcommit 3575bf0140a9c56da2acec931686b49eddf52a41[m
+Author: rhanKorkmaz <rhanKorkmaz@gmail.com>
+Date:   Fri Nov 22 08:48:42 2024 +0300
+
+    EVESharp alt modülü kaldırıldı
+
+[33mcommit dfb1fe19732465cfef09f28c9ba519e0925ecaf1[m
+Author: rhanKorkmaz <rhanKorkmaz@gmail.com>
+Date:   Fri Nov 22 08:48:18 2024 +0300
+
+    Yeni veriler ve güncellemeler eklendi
+
+[33mcommit 0231e2928aeffd6b68bd45380c975e2338d64298[m
+Author: GamesDeveloperOK <rhankorkmaz@gmail.com>
+Date:   Fri Nov 22 08:30:54 2024 +0300
+
+    Removed EVESharp_New submodule
+
+[33mcommit b19fc60f7b6f3a6c3c1914835d8b42c92014cf8b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Dec 19 19:33:50 2022 +0100
+
+    Reverted changes for net 7 without losing changes
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit aeaac568364fdbd46a8ef483f95bfa247ce0507c[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Dec 13 00:26:41 2022 +0100
+
+    Updated to C# 11
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit f0e8964f1d3fd85b295cc85e99bf1b617ddfc5d0[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Dec 19 18:43:40 2022 +0100
+
+    Revert "Updated to C# 11"
+    
+    This reverts commit 94b7da27ec6fa38b64c63ab7d3c42d5168f6ca2b.
+
+[33mcommit ae785279223aabd1e7d635d1c19a22401e658f25[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Dec 19 18:43:38 2022 +0100
+
+    Revert "Moved everything to net 7 and updated github actions pipeline to use the right net version too"
+    
+    This reverts commit b70ae633de43db31f351a021e6f4a741f87d2745.
+
+[33mcommit b0eb55fa4dd4398db8573da49037833008770d0c[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Dec 19 18:43:34 2022 +0100
+
+    Revert "Change GitHub actions to run debug tests instead of release until Harmony supports .NET 7"
+    
+    This reverts commit 0ecce28861c853fb8bf0f83371d9462c6e4a6299.
+
+[33mcommit 0ecce28861c853fb8bf0f83371d9462c6e4a6299[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Dec 13 21:25:15 2022 +0100
+
+    Change GitHub actions to run debug tests instead of release until Harmony supports .NET 7
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit b70ae633de43db31f351a021e6f4a741f87d2745[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Dec 13 00:41:35 2022 +0100
+
+    Moved everything to net 7 and updated github actions pipeline to use the right net version too
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 94b7da27ec6fa38b64c63ab7d3c42d5168f6ca2b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Dec 13 00:26:41 2022 +0100
+
+    Updated to C# 11
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 56404fde24d6de72bdbfa0381d3dcec3b4bd3fa1[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Dec 8 13:49:34 2022 +0100
+
+    Improvements to node tests to further expand on what they do
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit ce722637c91a34eb29c5f68b5e82a7da5412e2d1[m
+Merge: 2dcdf66d 7a99fa8d
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Dec 6 01:02:04 2022 +0100
+
+    Merge branch 'main' of git@github.com:Almamu/EVESharp.git into main
+
+[33mcommit 2dcdf66d49dc899e9500e20d0c7edac4bbd29c4a[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Dec 6 01:01:21 2022 +0100
+
+    Improvements to item handling
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 7a99fa8d1afdad612c9184c2b8b3caf161964999[m
+Author: Alexis Maiquez <almamu@almamu.com>
+Date:   Mon Nov 14 20:12:37 2022 +0100
+
+    Updated Discord link once again
+
+[33mcommit f07bb04dc199ce0de29f9e18265e4abdc6a921c6[m
+Author: Joep Lijnen <Joeppie@gmail.com>
+Date:   Sat Oct 22 13:48:53 2022 +0200
+
+    Make .gitmodules support https
+    
+    Make paths relative so that they work regardless
+    of being cloned with https or ssh.
+
+[33mcommit 6c45b50b5e3ea1839c660a737c6bd5d363308b09[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Fri Oct 21 06:50:55 2022 +0200
+
+    Fix reprocessing service window start up
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit ce2a48d06d84b75ea3dda7bc95589673ec925451[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Fri Oct 21 06:34:56 2022 +0200
+
+    Small cleanup and code quality improvements
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit b8b39f620bf2805fffe103247d8f79e0e505d7f3[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Fri Oct 21 06:22:47 2022 +0200
+
+    Updated more code to make use of the new item inventories implementation
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 48bd02d83896422f343fa4db33d1c4e722da4995[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Fri Oct 21 04:39:17 2022 +0200
+
+    First part of the inventory system rewrite
+    Fixed fitting of modules
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit e096add6df372475389c4e442feef0a617dbe8fb[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 20 03:41:03 2022 +0200
+
+    Added support for recovering impounded assets without renting an office again
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit ac8b468b2836a2c638f06f982b96e9f253298bd5[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 20 02:13:20 2022 +0200
+
+    Renting an office now checks if there's an impounded office there and reuses it if possible
+    Added support for accepting loan contracts
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit ebc8530b186162cd78fae4927257f7345d20f49b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Wed Oct 19 20:12:53 2022 +0200
+
+    Fixed issues with auction contracts
+    Added support for contract cleanup when an exception happens
+    Added information on contract accepting
+    Fixed my contracts page not properly reflecting what's in progress
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 9a26f04f4a8259319c38fe318dfa6c984381d03b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Wed Oct 19 04:28:02 2022 +0200
+
+    Broken into the 100 database procedures
+    Added support to redirect calls inside the cluster
+    Full support for creating and accepting item exchange contracts (missing proper error handling for now)
+    Ported over old contracts code to the better database locking way
+    Removed item update code between nodes, packets should go to the right place
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit b40a59a743a7ab04412820fb22f36c0378e2808b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Oct 17 23:59:05 2022 +0200
+
+    Fixed offices not showing inventory properly sometimes
+    Properly implemented vote expiration with movement to sanctionable actions where applies
+    Support locking and unlocking items
+    Fixed blueprint information not being public
+    Fixed some queries that were returning impounded offices
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit f9e3fd554cd2ce2a7bf0c7f02eae1cfc2c286bef[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Oct 17 05:26:08 2022 +0200
+
+    Added basic support for locking items
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 8be1a91f4e54491e38a0503e8b5fe5e302416ba4[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Mon Oct 17 03:29:47 2022 +0200
+
+    Added pre-checks for voting to prevent unintended situations
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 4246fb4f26bf6597974c7b3b118d68842a9679b0[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Oct 16 23:29:10 2022 +0200
+
+    Finished most of the voting system handling and fixed various small issues
+    Implemented office expiration and unrenting
+    Fixed InsertProcedure not returning the inserted ID
+    Scalar functions should be able to return null values
+    Support for destroying bound services (rough implementation, needs some work)
+    Fixed periodic timers not firing after the first
+    Fixed notification sending for multiple corporation roles
+    Now keep track of bound inventories so we can close them too
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit e55c15fa19a8c4cf2175f366ab8650abc941362d[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Oct 16 19:10:03 2022 +0200
+
+    Fixed CrpSharesGet when no shares are available
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit b9f63fdd73d029a9cbf9a7cbc5f8c5c50b934072[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Oct 16 06:34:47 2022 +0200
+
+    Update shares accounts to handle quantities for them
+    Improved votes housekeeping so they're moved to sanctioned actions only when they should
+    Support for applying shares creation
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 0e3863809e065482e81eee1a0feaf030846b318a[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Fri Oct 14 21:57:55 2022 +0200
+
+    Clear logged in characters on cluster/server startup
+    Fixed locking for shares
+    Added cleanup for ads and votes with proper notifications to everyone
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit c6f8eabc6b59692feee9f0676abe6a2301f4ec9e[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Fri Oct 14 00:45:19 2022 +0200
+
+    Updated to latest EVEmon version with image support
+    Added ImagesController to handle requests for images
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 552e9151ea028025443b6b325dfd7032d9f9cd77[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 13 19:30:47 2022 +0200
+
+    Updated invBlueprintTypes with the ones included in the client as they're closer to the static dump
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 87fd9cbbcc71a9477074efffd1c710004781c477[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 13 11:45:19 2022 +0200
+
+    Added evemon to .gitmodules and updated to latest evemon version
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit e2968658d1bdbd830b589f83e1f3aae03de03b53[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 13 11:23:47 2022 +0200
+
+    Added EVEmon submodule to the Tools directory
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 57903008336a3f7056b2030b1f5bf5cfbec5be7d[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 13 11:19:17 2022 +0200
+
+    Fixed an important issue when loading item's attributes from the database
+    Updated file namespaces to match the folder they're at
+    Implemented some of the first API calls for tools like EVEmon, hardcoded IDs for now
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit e722ce65d1b9484b8bdca4bc04a81ddc9aeb7a46[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 13 03:53:35 2022 +0200
+
+    Fixed small oversights on single Row fetching from the database
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit ed0bcef44b389616d11e1d61d3c0c4b1eb61a5a9[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Oct 13 03:15:09 2022 +0200
+
+    Moved data-related elements to the Database project
+    SQL classes shouldn't have any of the type-conversion code, extracted to extensions
+    Renamed DatabaseConnection as it doesn't really represent one
+    Improved Database locking mechanism to automatically close it on dispose
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit d64a745c5545b49cb4d6b88f19cfd6deeb8dcced[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Wed Oct 12 01:28:09 2022 +0200
+
+    Implemented "Find member in role"
+    Finished implementation of Medal issuing and creation with proper cache invalidation
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 3465a60fbbf7649fe48f93e28f485bed3a26c5f7[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Oct 11 23:57:06 2022 +0200
+
+    Fixed SavedStreamElements not being read properly when they were out of order
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit b42ef2ea808f4ca3d6b8a4b0cbc89c9a5ae5ad7b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Oct 11 22:06:50 2022 +0200
+
+    Expose some marshal information required for tools using this project
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 3f6212c6a202b62028e42dc2df914dcfe1f14351[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Oct 11 21:58:44 2022 +0200
+
+    Specify the right branch for the MySql connector
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit ad41bb6d63cfda94bb315b9b0bf6be82d5a31d0e[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Oct 11 21:40:31 2022 +0200
+
+    Added audit log support and some basic audit logging
+    Disabled save lists for outgoing data as these are not calculated the same way as the CCP's implementation
+    (refcounting vs hashing)
+    Fixed unit tests for marshal
+    Fixed some small issues with medals
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 9f6fcc60f11c926a91c27dbda100615988da0edb[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Oct 11 16:10:17 2022 +0200
+
+    Fix medal window not displaying all the data properly
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 3ddb0d1205e7bf762416c55d075c10ef554e8a5a[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Tue Oct 11 15:18:59 2022 +0200
+
+    Fix medal creation
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 61949f32b36aee0d43a155637a90aea3c2281581[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Thu Sep 29 00:50:01 2022 +0200
+
+    Moved more things to the EVESharp.EVE project
+    Bound services now use GUIDs to create unique ids across the cluster
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit e9393838c5567c293850b82cf1e42e2e0d693831[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Sep 11 05:02:52 2022 +0200
+
+    Fixed Standings not being instantiated
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 4e56d299b9495330241c98c7517ad7ea343bdf11[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Sep 11 04:59:31 2022 +0200
+
+    Cleanup of item ranges code
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 8d70b86a7796f552acf95ffaa71da85ebd224bc6[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Sep 11 04:27:10 2022 +0200
+
+    Little code quality improvements here and there
+    Added basic Standings manager
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 606a900c898392d15cf291dbaa3997b815843ae6[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Sep 11 02:53:26 2022 +0200
+
+    Fix an oopsie on the sink configuration for serilog
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit e39e3283ceeb14fcec56f43dd90cd9060dfddd6a[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sun Sep 11 02:48:17 2022 +0200
+
+    Brought back LogLite logging support
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit c80f8b403de492167dbb2545e41f90aae6d3fa7b[m
+Author: Alexis Maiquez Murcia <almamu@almamu.com>
+Date:   Sat Sep 10 23:23:25 2022 +0200
+
+    Small improvements over the test projects
+    
+    Signed-off-by: Alexis Maiquez Murcia <almamu@almamu.com>
+
+[33mcommit 5bfa269d71289bdcc7508d3364499e428359265c[m
+Author: Alexis Ma

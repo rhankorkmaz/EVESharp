@@ -1,0 +1,104 @@
+1. Yeni DLC Paketini Organize Etme:
+DLC içeriği genellikle yeni gemiler, sistemler, görevler, özellikler veya mekanikler ekler. Bu içerikler projede uygun dosya ve dizin yapılarında düzenlenmeli.
+Örneğin, ShipModels, AI, Trade gibi klasörler altında DLC'ye özel yeni gemiler veya AI modelleri yer alabilir.
+2. Yapay Zeka Entegrasyonu:
+Ticaret, savunma, saldırı gibi AI görevlerini tanımlayan sınıflar oluşturulmalı. TradeAI veya CombatAI gibi sınıflarla, gemilerin kararlarını yönlendiren algoritmalar kullanılabilir.
+AI’nin öğrenme ve adaptasyon yetenekleri varsa, makine öğrenimi ve veri işleme metodları da bu kısımda kullanılabilir.
+3. Veritabanı Entegrasyonu:
+Yeni DLC özelliklerini veritabanında saklamak için yeni tablolar ve ilişkiler eklenebilir. Örneğin, yeni gemiler için Frigates tablosu ve AI davranışları için AI_States tablosu gibi.
+SQL veri işleme işlemleri için Microsoft.Data.SqlClient veya System.Data.SqlClient kütüphaneleri kullanılabilir.
+4. Zamanlayıcı ve Arka Plan Servisi:
+Ticaret rotası optimizasyonu ve diğer AI işlemlerini belirli aralıklarla çalıştırmak için BackgroundService veya zamanlayıcı kullanabilirsiniz.
+Örneğin, her 10 dakikada bir ticaret rotalarının güncellenmesini sağlamak için bir zamanlayıcı kurulabilir.
+5. Yapılacak Adımlar:
+DLC içerikleri için gerekli yeni sınıfları ve model yapılarını oluşturun.
+AI sistemlerini geliştirin ve uygun API'leri çağırarak oyun içindeki AI görevlerini yerine getirecek şekilde entegre edin.
+Veritabanı entegrasyonu yaparak gemiler, ticaret rotaları ve AI durumlarını veritabanında tutun.
+Zamanlayıcı veya arka plan servisleri ekleyerek belirli işlemleri periyodik olarak çalıştırın.
+Testler yaparak oyun dinamiklerinin düzgün çalıştığından emin olun.
+Herhangi bir konuda yardıma ihtiyaç duyarsanız, örnek kodlar veya detaylı açıklamalarla size yardımcı olabilirim.
+
+/Data
+├── AI/                              # Yapay zeka sistemleri
+│   ├── AIManager.cs                 # AI yönetim kodu
+│   ├── DroneAI.cs                   # Drone işlevselliği
+│   ├── TradeAI.cs                   # Ticaret işlevselliği
+│   └── DefenseAI.cs                 # Savunma AI (DLC ile gelen yeni içerik)
+│
+├── Logs/                            # Log dosyaları
+│   ├── SystemLogs/                  # Sistem logları
+│   ├── ErrorLogs/                   # Hata logları
+│   └── DLCLogs/                     # DLC ile ilgili özel loglar
+│
+├── ML/                              # Makine öğrenimi
+│   ├── Models/                      # Eğitimli modeller
+│   │   ├── DecisionTreeModel.ml
+│   │   ├── NeuralNetworkModel.ml
+│   └── Scripts/                     # Eğitim ve tahmin script'leri
+│       ├── TrainAIModel.py
+│       ├── PredictTradeRoutes.py
+│       └── OptimizeCombatStrategy.py
+│
+├── Models/                          # Uygulama modelleri
+│   ├── ShipModels/                  # Gemiler
+│   │   ├── Battleship.cs
+│   │   ├── Drone.cs
+│   │   ├── Trader.cs
+│   │   └── Frigate.cs               # Yeni gemi modeli (DLC içeriği)
+│   └── MaterialModels/              # Materyal ve kaynaklar
+│       ├── Mineral.cs
+│       ├── WeaponComponent.cs
+│       └── ShieldModule.cs          # Yeni materyal (DLC içeriği)
+│
+├── Seed/                            # Veritabanı başlangıç verileri
+│   ├── AISeedData.sql
+│   ├── ItemSeedData.sql
+│   └── ShipSeedData.sql
+│
+├── SQL/                             # Veritabanı script dosyaları
+│   ├── Tables.sql
+│   ├── StoredProcedures.sql
+│   └── Indexes.sql
+│
+├── Systems/                         # Oyun sistemleri
+│   ├── CombatSystem.cs              # Savaş yönetimi
+│   ├── ResourceManagement.cs        # Kaynak yönetimi
+│   ├── Exploration.cs               # Keşif sistemi
+│   └── TradeRouteOptimizer.cs       # Ticaret rotası optimizasyonu (DLC içeriği)
+│
+├── ApplicationDbContext.cs          # Veritabanı bağlamı
+├── appsettings.json                 # Yapılandırma ayarları
+├── Data.csproj                      # Data katmanı proje dosyası
+├── Data.sln                         # Çözüm dosyası
+├── Program.cs                       # Uygulama başlangıcı
+├── README.md                        # Dokümantasyon
+└── Startup.cs                       # Uygulama yapılandırmaları
+
+---
+v002 İlerleme notu ;
+Projenizi organize edip geliştirmeye başlamak için adım adım ilerleyelim:
+
+Proje Kontrolü
+Data.sln ve Data.csproj dosyalarını Visual Studio veya dotnet CLI kullanarak açın ve içerikleri doğrulayın. Çözüm ve proje dosyaları, tüm alt klasörleri ve dosyaları doğru bir şekilde içermelidir.
+
+Geliştirme Adımları
+
+AI Sistemleri: AI/TradeAI.cs, AI/DefenseAI.cs gibi mevcut dosyalar üzerinde çalışarak ticaret ve savunma sistemlerini güncelleyin.
+Yeni Modeller: Models/ klasöründeki gemi ve materyal modellerini, DLC içeriklerini kapsayacak şekilde genişletin.
+Veritabanı Güncellemeleri: SQL/Tables.sql içinde yeni tablolar veya mevcut tablolar için düzenlemeler yaparak DLC'deki özellikleri ekleyin.
+Uygulama Başlatıcı Güncellemesi:
+
+Program.cs içinde uygun başlangıç servislerini tanımlayın (ör. TradeRouteOptimizer veya AIManager başlatma kodları).
+Startup.cs dosyasında servisleri bağımlılık enjeksiyonu (DI) olarak ekleyin.
+Test ve Geri Bildirim:
+
+Yapılan güncellemeleri test etmek için Seed/ klasöründeki başlangıç verileri ve test senaryolarını çalıştırın.
+Log dosyalarını inceleyerek hataları giderin (Logs/ErrorLogs/ klasörü altında).
+Hangi modülü öncelikli geliştirmek istediğinizi belirtirseniz, ona göre detaylı yönlendirme yapabilirim.
+
+
+
+
+
+
+
